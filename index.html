@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Fill in the blanks to write your story!</h1>
+        <div>
+            <form id="formOne">
+                <div class="form-group">
+                    <label for="person1">A name</label>
+                    <input id="person1" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="person2">Another name</label>
+                    <input id="person2" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="animal">An animal</label>
+                    <input id="animal" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="exclamation">An exclamation</label>
+                    <input id="exclamation" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="verb">A past tense verb</label>
+                    <input id="verb" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="noun">A noun</label>
+                    <input id="noun" class="form-control" type="text">
+                </div>
+
+                <button type="submit" class="btn">Show me the story!</button>
+            </form>
+        </div>
+        <div id="story">
+            <h1>A fantastical adventure</h1>
+            <p>
+                One day, <span class="person1"></span> and <span class="person2"></span> were walking through the woods,
+                when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span
+                    class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and
+                when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a
+                giant <span class="noun"></span>.
+            </p>
+        </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100 lol" alt="..." id="" style="width: ; height: ;">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+</body>
+
+</html>
